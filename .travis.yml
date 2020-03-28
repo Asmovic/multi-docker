@@ -10,7 +10,7 @@ script:
 
 after_success:
     - docker build -t asmovic100/multi-client ./client
-    - docker build -t asmovic100/multi-nginx ./client
+    - docker build -t asmovic100/multi-nginx ./nginx
     - docker build -t asmovic100/multi-server ./server
     - docker build -t asmovic100/multi-worker ./worker
     #Login to the docker CLI
