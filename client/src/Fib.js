@@ -5,7 +5,6 @@ import _ from 'lodash';
 class Fib extends Component {
   state = {
     seenIndexes: [],
-    seenAsmo: [],
     values: {},
     index: ''
   };
