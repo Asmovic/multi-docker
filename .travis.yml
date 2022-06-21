@@ -23,10 +23,10 @@ after_success:
 
 deploy:
     provider: elasticbeanstalk
-    region: us-east-2
+    region: us-east-1
     app: multi-docker
-    env: MultiDocker-env
-    bucket_name: elasticbeanstalk-us-east-2-788040413950
+    env: Multidocker-env
+    bucket_name: elasticbeanstalk-us-east-1-530354575297
     bucket_path: docker-multi
     on:
         branch: master
